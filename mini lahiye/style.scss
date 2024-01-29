@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    .navbar{
+        background-color: #263B5C!important;
+        .collapse{
+            ul{
+                li{
+                    a{
+                        color: white!important;
+                        &:hover{
+                            color: aquamarine!important;
+                        }
+                    }
+                }
+            }
+        }
+        .navbar-text{
+            color: white!important;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .button{
+                cursor: pointer;
+    width: 230px;
+    height: 60px;
+    background-color: #EF664B;
+    color: white;
+    font-size: 14px;
+    border: 1px solid black;
+    &:hover{
+        background-color: transparent!important;
+    border: 1px solid white!important;
+    }
+            }
+        }
+    }
+    .section1{
+        width: 100%;
+        height: 800px;
+        background-position: center;
+        .lorem{
+            display: flex;
+            flex-direction: column;
+           width: 50%;
+           height: 100%;
+           align-items: center;
+            justify-content: center;
+            gap: 20px;
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 30px;
+            }
+         h1,p{
+                width: 440px;
+                color: white
+            }
+        }
+        .button1{
+            width: 190px;
+            height: 60px;
+            background-color:rgb(83, 236, 185) ;
+            color: white;
+            font-size: 14px;
+            border: 1px solid black;
+            align-self: flex-start;
+            margin-left: 28px;
+            &:hover{
+                border: 1px solid white;
+                background-color: transparent;
+                cursor: pointer;
+            }
+        }
+    }
+    .section2{
+        display: flex;
+        width: 100%;
+        background-color: #FCF2EB;
+        height: 600px;
+        justify-content: space-around;
+        align-items: center;
+        .sekil{
+            margin-left: 140px;
+            width: 50%;
+            img{
+                width: 83%;
+                height: 83%;
+            }
+        }
+        .yazilar{
+            height: 100%;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30px;
+            .yazi1{
+                width: 440px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 15px;
+                .up{
+                    color: aquamarine;
+                    font-size: 18px;
+                }
+                .donate{
+                color: #263B5C;
+                font-size: 45px;
+                margin-top: -10px;
+            }
+            .when{
+                color: gray;
+                font-size: 18px;
+            }
+        }
+        .buttonlar{
+            display: flex;
+            gap: 10px;
+            .button2{  cursor: pointer;
+                width: 180px;
+                height: 65px;
+                background-color: #EF664B;
+                color: white;
+                border: none;
+                font-size: 14px;
+                &:hover{
+                    background-color: transparent!important;
+                border: 2px solid #EF664B!important;
+                color: #EF664B;
+                }
+                        }
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .section1{
+        height: 450px!important;
+        width: 100%;
+        background-size: cover;
+    }
+    .lorem{
+        width: 98%!important;
+        gap: 10px;
+    }
+    .lorem p{
+        font-size: 20px;
+        width: 950%;
+    }
+    .lorem h1{
+        font-size: 30px;
+  
+    }
+    .section2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .sekil{
+        width: 98%!important;
+        height: 49%!important;
+    }
+    .sekil img{
+        width: 100%!important;
+        height: 100%!important;  
+        margin-left: -200px;
+      }
+      .yazilar{
+        width: 100%;
+        height: 49%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: -200px;
+      }
+      .yazi1{
+        width: 98%;
+      }
+      .up{
+        font-size: 10px!important;
+      }
+      .donate{
+        font-size: 10px!important;
+      }
+      .when{
+        font-size: 10px!important;
+      }
+}
+@media only screen and (min-width: 601px) {
+    .section1 {
+      height: 600px!important;
+      width: 100%;
+      background-size: cover;
+      overflow: hidden!important;
+    }
+    .lorem {
+      width: 75% !important;
+      gap: 10px;
+      margin-left: 40px;
+      overflow: hidden!important;
+    }
+    .lorem p {
+      font-size: 25px;
+      overflow: hidden;
+      width: 100%;
+    }
+    .lorem h1 {
+      font-size: 37px;
+      overflow: hidden;
+      width: 100%;
+    }
+}
+@media only screen and (max-width: 450px){
+    .section1{
+        height: 300px!important;
+        width: 100%!important;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .lorem{
+        width: 98%!important;
+        gap: 5px;
+    }
+    .lorem p{
+        font-size: 15px!important;
+        width: 90vw!important;
+    }
+    .lorem h1{
+        font-size: 30px!important;
+        width: 90vw!important;
+    }
+
+}
+@media only screen and (min-width: 778px){
+    .section1{
+        height: 800px!important;
+        width: 100%!important;
+        overflow: hidden;
+        background-size: cover;
+    }
+    .lorem{
+        margin-top: -20px;
+        width: 65%!important;
+    }
+    .lorem p{
+        font-size: 30px!important;
+        width: 65vw!important;
+    }
+    .lorem h1{
+        font-size: 40px!important;
+        width: 65vw!important;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .section1{
+        width: 100%;
+        height: 800px;
+        .lorem{
+           width: 50%!important;
+           overflow: hidden;
+           height: 100%;
+          .lorem  h1{
+                margin-left: -200px;
+                font-size: 50px!important;
+                overflow: hidden;
+            width: 440px!important;
+            }
+            .lorem  p{
+                margin-left: -200px;
+                font-size: 30px!important;
+                overflow: hidden;
+              width: 440px!important;
+            }
+        }
+        .button1{
+          margin-left: 60px!important;
+}
+}
+}
+@media only screen and (min-width: 992px){
+    .section1{
+        width: 100%;
+        height: 800px!important;
+    }
+    .lorem{
+width: 50%;
+height: 100%;
+    }
+   .lorem h1{
+    margin-left: -150px;
+    font-size: 45px!important;
+    overflow: hidden;
+width: 400px!important;
+    }
+    .lorem p{
+        margin-left: -150px;
+        font-size: 27px!important;
+        overflow: hidden;
+      width: 400px!important;
+    }
+}
+}
