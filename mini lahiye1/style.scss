@@ -1,0 +1,462 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    .navbar{
+        background-color: #263B5C!important;
+        .collapse{
+            ul{
+                li{
+                    a{
+                        color: white!important;
+                        &:hover{
+                            color: aquamarine!important;
+                        }
+                    }
+                }
+            }
+        }
+        .navbar-text{
+            color: white!important;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .button{
+                cursor: pointer;
+    width: 230px;
+    height: 60px;
+    background-color: #EF664B;
+    color: white;
+    font-size: 14px;
+    border: 1px solid black;
+    &:hover{
+        background-color: transparent!important;
+    border: 1px solid white!important;
+    }
+            }
+        }
+    }
+    .section1{
+        width: 100%;
+        height: 800px;
+        background-position: center;
+        .lorem{
+            display: flex;
+            flex-direction: column;
+           height: 100%;
+           align-items: center;
+            justify-content: center;
+            margin-left: 100px;
+            gap: 20px;
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 30px;
+            }
+         h1,p{
+                color: white
+            }
+        }
+        .button1{
+            width: 190px;
+            height: 60px;
+            background-color:rgb(83, 236, 185) ;
+            color: white;
+            font-size: 14px;
+            border: 1px solid black;
+            align-self: flex-start;
+            margin-left: 28px;
+            &:hover{
+                border: 1px solid white;
+                background-color: transparent;
+                cursor: pointer;
+            }
+        }
+    }
+    .section2{
+        display: flex;
+        width: 100%;
+        background-color: #FCF2EB;
+        height: 600px;
+        justify-content: space-around;
+        align-items: center;
+            .img{
+                width: 50%;
+                height: 75%;
+            }
+        .yazilar{
+            height: 100%;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30px;
+            .yazi1{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 15px;
+                .up{
+                    color: aquamarine;
+                    font-size: 18px;
+                }
+                .donate{
+                color: #263B5C;
+                font-size: 45px;
+                margin-top: -10px;
+            }
+            .when{
+                color: gray;
+                font-size: 18px;
+            }
+        }
+        .buttonlar{
+            display: flex;
+            gap: 10px;
+            .button2{  cursor: pointer;
+                width: 180px;
+                height: 65px;
+                background-color: #EF664B;
+                color: white;
+                border: none;
+                font-size: 14px;
+                &:hover{
+                    background-color: transparent!important;
+                border: 2px solid #EF664B!important;
+                color: #EF664B;
+                }
+                        }
+        }
+    }
+    
+}
+.container{
+    .row{
+        .text1{
+            .about{
+    .yazilar2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 100px;
+    span{
+        color: aquamarine;
+    }
+    h1{
+        color: #263B5C; 
+    }
+    p{
+        font-size: 19px;
+        color: gray;
+    }
+}
+.button3{
+    width: 170px;
+    height: 60px;
+    background-color: #EF664B;
+    color: white;
+    border: none;
+    &:hover{
+        background-color: white;
+        color: #EF664B;
+        border: 1px solid #EF664B;
+    }
+}
+}
+}
+.picture{
+.aboutimg{
+    img{
+        width: 88%;
+        height: 75%;
+        margin-top: 60px;               
+    }
+}           
+}                                 
+ }
+}  
+.row{
+    margin-top: 100px!important;
+    .col{
+        overflow: hidden;
+        .card{
+            .card-body{
+                background-color: #F4F2F1;
+                a{
+                    text-decoration: none;
+                    font-size: 30px;
+                    cursor: pointer;
+                    &:hover{
+                        color: #EF664B;
+                    }
+                }
+            }
+            .card-footer{
+                background-color: #F4F2F1!important;
+                border: none!important; 
+                .footer{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .qiymet{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .text{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .button4{
+                        width: 130px;
+                        height: 50px;
+                        background-color: #EF664B;
+                        color: white;
+                        border: none;
+                        &:hover{
+                            background-color: white;
+                            color: #EF664B;
+                            border: 1px solid #EF664B;
+                         }
+                    }
+                }  
+            }
+        }
+    }
+}
+.about-area1{
+     .container{
+        .row{
+            .col-xxl-5{
+                .about-caption{
+                    .section-tittle{
+                        margin-top: -25px;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: column;
+                        gap: 20px;
+                        span{
+                             color: aquamarine;      
+                        }
+                        h2{
+                            color: #263B5C;
+                        }
+                        p{
+                            color: gray ;
+                        }
+                        button{
+                            width: 170px;
+                            height: 60px;
+                            color: #EF664B;
+                            border: 1px solid #EF664B;
+                            background-color: white;
+                            &:hover{
+                                border: none;
+                                color: white;
+                                background-color: #EF664B;
+                                transition: 1s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+     }
+}
+}
+@media only screen and (max-width: 450px){
+    .section1{
+        height: 400px!important;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .lorem{
+        width: 98%;
+        gap:5px;
+        margin-left: 5px!important;
+    }
+    .lorem p{
+        font-size: 15px!important;
+    }
+    .lorem h1{
+        font-size: 30px!important; 
+    }
+    .img{
+        width: 98%!important;
+        height: 50%; 
+      }
+      .yazilar{
+        width: 100%!important;
+        justify-content: flex-start;
+
+      }
+      .yazi1{
+        width: 98%;
+      }
+      .up{
+        font-size: 10px;
+      }
+      .donate{
+        font-size: 17px!important;
+        
+      }
+      .when{
+        font-size: 15px;
+      }
+      .buttonlar{
+        width: 100%;
+        flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+        justify-content: flex-start;
+        margin-top: -30px;
+      }
+      .button2{
+          height:50px;
+      }
+      .section2{
+        display:flex ;
+        flex-direction: column!important;
+        width: 100%;
+        height: 730px!important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .section1{
+        height: 450px!important;
+        width: 100%;
+        background-size: cover;
+    }
+    .lorem{
+        width: 95%!important;
+        gap: 10px;
+        margin-left: 20px!important;
+    }
+    .lorem p{
+        font-size: 20px!important;    
+    }
+    .lorem h1{
+        font-size: 30px!important;
+    }
+    .section2{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .img{
+        width: 90%!important;
+        height: 90%!important;  
+        margin-top: 80px!important;
+        margin-left: 10px!important;
+      }
+      .yazilar{
+        width: 100%!important;
+        height: 49%;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .up{
+        font-size: 13px;
+      }
+      .donate{
+        font-size: 20px;
+      }
+      .when{
+        font-size: 17px;
+      }
+}
+@media only screen and (max-width: 777px) {
+    .section1 {
+      height: 600px;
+      width: 100%;
+      background-size: cover;
+      overflow: hidden;
+    }
+    .lorem {
+      width: 75% ;
+      gap: 10px;
+      margin-left: 15px!important;
+    }
+    .lorem p {
+      font-size: 25px;
+      overflow: hidden;
+    }
+    .lorem h1 {
+      font-size: 37px;
+      overflow: hidden;
+    }
+    .section2{
+        height: 990px!important;
+        width: 100%;
+        flex-direction: column;
+    }
+    .img{
+        width: 80%!important;
+        height: 50%;
+        margin-top: 200px;
+        margin-left: 25px!important;
+    }
+    .yazilar{
+        width: 80%!important;
+    }
+}
+@media only screen and (max-width: 991px){
+    .section1{
+        width: 100%;
+        overflow: hidden;
+        background-size: cover;
+    }
+    .lorem{ 
+        width: 65%;
+    }
+    .lorem p{
+        font-size: 30px;
+    }
+    .lorem h1{
+        font-size: 40px;
+    }
+        .section2{
+            display:flex ;
+            flex-direction: column;
+            width: 100%;
+            height: 800px;
+            overflow: hidden;
+        }
+        .img{
+         margin-top: 70px;
+         margin-left: -130px;
+         width: 60%;
+        } 
+       .yazilar{
+        justify-content: flex-start;
+        width: 60%!important;
+       }
+        .button2{
+            width: 110px!important;
+        }
+}
+@media only screen and (min-width: 992px){
+    .section1{
+        width: 100%;
+        height: 800px;
+    }
+    .lorem{
+width: 50%;
+height: 100%;
+    }
+   .lorem h1{
+    font-size: 45px;
+    overflow: hidden;
+
+    }
+    .lorem p{
+        font-size: 27px;
+        overflow: hidden;
+
+    }
+}
