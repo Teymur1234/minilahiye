@@ -39,10 +39,10 @@ body .section1 {
 body .section1 .lorem {
   display: flex;
   flex-direction: column;
-  width: 50%;
   height: 100%;
   align-items: center;
   justify-content: center;
+  margin-left: 100px;
   gap: 20px;
 }
 body .section1 .lorem h1 {
@@ -52,7 +52,6 @@ body .section1 .lorem p {
   font-size: 30px;
 }
 body .section1 .lorem h1, body .section1 .lorem p {
-  width: 440px;
   color: white;
 }
 body .section1 .button1 {
@@ -78,13 +77,9 @@ body .section2 {
   justify-content: space-around;
   align-items: center;
 }
-body .section2 .sekil {
-  margin-left: 140px;
+body .section2 .img {
   width: 50%;
-}
-body .section2 .sekil img {
-  width: 83%;
-  height: 83%;
+  height: 75%;
 }
 body .section2 .yazilar {
   height: 100%;
@@ -96,7 +91,6 @@ body .section2 .yazilar {
   gap: 30px;
 }
 body .section2 .yazilar .yazi1 {
-  width: 440px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -133,6 +127,62 @@ body .section2 .yazilar .buttonlar .button2:hover {
   border: 2px solid #EF664B !important;
   color: #EF664B;
 }
+@media only screen and (max-width: 450px) {
+  body .section1 {
+    height: 400px !important;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
+  body .lorem {
+    width: 98%;
+    gap: 5px;
+    margin-left: 5px !important;
+  }
+  body .lorem p {
+    font-size: 15px !important;
+  }
+  body .lorem h1 {
+    font-size: 30px !important;
+  }
+  body .img {
+    width: 98% !important;
+    height: 50%;
+  }
+  body .yazilar {
+    width: 100% !important;
+    justify-content: flex-start;
+  }
+  body .yazi1 {
+    width: 98%;
+  }
+  body .up {
+    font-size: 10px;
+  }
+  body .donate {
+    font-size: 17px !important;
+  }
+  body .when {
+    font-size: 15px;
+  }
+  body .buttonlar {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    justify-content: flex-start;
+    margin-top: -30px;
+  }
+  body .button2 {
+    height: 50px;
+  }
+  body .section2 {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    height: 730px !important;
+  }
+}
 @media only screen and (max-width: 600px) {
   body .section1 {
     height: 450px !important;
@@ -140,158 +190,119 @@ body .section2 .yazilar .buttonlar .button2:hover {
     background-size: cover;
   }
   body .lorem {
-    width: 98% !important;
+    width: 95% !important;
     gap: 10px;
+    margin-left: 20px !important;
   }
   body .lorem p {
-    font-size: 20px;
-    width: 950%;
+    font-size: 20px !important;
   }
   body .lorem h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   body .section2 {
-    flex-direction: column;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
   }
-  body .sekil {
-    width: 98% !important;
-    height: 49% !important;
-  }
-  body .sekil img {
-    width: 100% !important;
-    height: 100% !important;
-    margin-left: -200px;
+  body .img {
+    width: 90% !important;
+    height: 90% !important;
+    margin-top: 80px !important;
   }
   body .yazilar {
-    width: 100%;
+    width: 100% !important;
     height: 49%;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: -200px;
-  }
-  body .yazi1 {
-    width: 98%;
   }
   body .up {
-    font-size: 10px !important;
+    font-size: 13px;
   }
   body .donate {
-    font-size: 10px !important;
+    font-size: 20px;
   }
   body .when {
-    font-size: 10px !important;
+    font-size: 17px;
   }
 }
-@media only screen and (min-width: 601px) {
+@media only screen and (max-width: 777px) {
   body .section1 {
-    height: 600px !important;
+    height: 600px;
     width: 100%;
     background-size: cover;
-    overflow: hidden !important;
+    overflow: hidden;
   }
   body .lorem {
-    width: 75% !important;
+    width: 75%;
     gap: 10px;
-    margin-left: 40px;
-    overflow: hidden !important;
+    margin-left: 15px !important;
   }
   body .lorem p {
     font-size: 25px;
     overflow: hidden;
-    width: 100%;
   }
   body .lorem h1 {
     font-size: 37px;
     overflow: hidden;
+  }
+  body .section2 {
+    height: 990px;
     width: 100%;
+    flex-direction: column;
+  }
+  body .img {
+    width: 80%;
+    height: 50%;
+    margin-top: 50px;
+  }
+  body .yazilar {
+    width: 85%;
   }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 991px) {
   body .section1 {
-    height: 300px !important;
-    width: 100% !important;
-    background-size: cover;
-    overflow: hidden;
-  }
-  body .lorem {
-    width: 98% !important;
-    gap: 5px;
-  }
-  body .lorem p {
-    font-size: 15px !important;
-    width: 90vw !important;
-  }
-  body .lorem h1 {
-    font-size: 30px !important;
-    width: 90vw !important;
-  }
-}
-@media only screen and (min-width: 778px) {
-  body .section1 {
-    height: 800px !important;
-    width: 100% !important;
+    height: 800px;
+    width: 100%;
     overflow: hidden;
     background-size: cover;
   }
   body .lorem {
-    margin-top: -20px;
-    width: 65% !important;
+    width: 65%;
   }
   body .lorem p {
-    font-size: 30px !important;
-    width: 65vw !important;
+    font-size: 30px;
   }
   body .lorem h1 {
-    font-size: 40px !important;
-    width: 65vw !important;
+    font-size: 40px;
   }
-}
-@media only screen and (min-width: 1300px) {
-  body .section1 {
+  body .section2 {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 800px;
-  }
-  body .section1 .lorem {
-    width: 50% !important;
     overflow: hidden;
-    height: 100%;
   }
-  body .section1 .lorem .lorem h1 {
-    margin-left: -200px;
-    font-size: 50px !important;
-    overflow: hidden;
-    width: 440px !important;
-  }
-  body .section1 .lorem .lorem p {
-    margin-left: -200px;
-    font-size: 30px !important;
-    overflow: hidden;
-    width: 440px !important;
-  }
-  body .section1 .button1 {
-    margin-left: 60px !important;
+  body .button2 {
+    width: 110px !important;
   }
 }
 @media only screen and (min-width: 992px) {
   body .section1 {
     width: 100%;
-    height: 800px !important;
+    height: 800px;
   }
   body .lorem {
     width: 50%;
     height: 100%;
   }
   body .lorem h1 {
-    margin-left: -150px;
-    font-size: 45px !important;
+    font-size: 45px;
     overflow: hidden;
-    width: 400px !important;
   }
   body .lorem p {
-    margin-left: -150px;
-    font-size: 27px !important;
+    font-size: 27px;
     overflow: hidden;
-    width: 400px !important;
   }
 }/*# sourceMappingURL=style.css.map */
