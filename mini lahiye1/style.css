@@ -286,8 +286,18 @@ body footer .foot1 .foot1parts {
 body footer .foot1 .foot1parts .socialicons {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 30px;
 }
+body footer .foot1 .foot1parts .socialicons div {
+  background-color: aqua;
+  z-index: 5;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 450px) {
   .section1 {
     height: 400px !important;
