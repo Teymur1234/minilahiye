@@ -1,0 +1,722 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body .navbar {
+  background-color: #263B5C !important;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+}
+body .navbar .collapse ul li a {
+  color: white !important;
+}
+body .navbar .collapse ul li a:hover {
+  color: aquamarine !important;
+}
+body .navbar .navbar-text {
+  color: white !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body .navbar .navbar-text .button {
+  cursor: pointer;
+  width: 230px;
+  height: 60px;
+  background-color: #EF664B;
+  color: white;
+  font-size: 14px;
+  border: 1px solid black;
+}
+body .navbar .navbar-text .button:hover {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+}
+body .section1 {
+  width: 100%;
+  height: 800px;
+  background-position: center;
+}
+body .section1 .lorem {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  gap: 20px;
+}
+body .section1 .lorem h1 {
+  font-size: 50px;
+}
+body .section1 .lorem p {
+  font-size: 30px;
+}
+body .section1 .lorem h1, body .section1 .lorem p {
+  color: white;
+}
+body .section1 .button1 {
+  width: 190px;
+  height: 60px;
+  background-color: rgb(83, 236, 185);
+  color: white;
+  font-size: 14px;
+  border: 1px solid black;
+  align-self: flex-start;
+  margin-left: 28px;
+}
+body .section1 .button1:hover {
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+}
+body .section2 {
+  display: flex;
+  width: 100%;
+  background-color: #FCF2EB;
+  height: 600px;
+  justify-content: space-around;
+  align-items: center;
+}
+body .section2 .img {
+  width: 50%;
+  height: 75%;
+}
+body .section2 .yazilar {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+body .section2 .yazilar .yazi1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+body .section2 .yazilar .yazi1 .up {
+  color: aquamarine;
+  font-size: 18px;
+}
+body .section2 .yazilar .yazi1 .donate {
+  color: #263B5C;
+  font-size: 45px;
+  margin-top: -10px;
+}
+body .section2 .yazilar .yazi1 .when {
+  color: gray;
+  font-size: 18px;
+}
+body .section2 .yazilar .buttonlar {
+  display: flex;
+  gap: 10px;
+}
+body .section2 .yazilar .buttonlar .button2 {
+  cursor: pointer;
+  width: 180px;
+  height: 65px;
+  background-color: #EF664B;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+body .section2 .yazilar .buttonlar .button2:hover {
+  background-color: transparent !important;
+  border: 2px solid #EF664B !important;
+  color: #EF664B;
+}
+body .container .row .text1 .about .yazilar2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 100px;
+}
+body .container .row .text1 .about .yazilar2 span {
+  color: aquamarine;
+}
+body .container .row .text1 .about .yazilar2 h1 {
+  color: #263B5C;
+}
+body .container .row .text1 .about .yazilar2 p {
+  font-size: 19px;
+  color: gray;
+}
+body .container .row .text1 .about .button3 {
+  width: 170px;
+  height: 60px;
+  background-color: #EF664B;
+  color: white;
+  border: none;
+}
+body .container .row .text1 .about .button3:hover {
+  background-color: white;
+  color: #EF664B;
+  border: 1px solid #EF664B;
+}
+body .row {
+  margin-top: 100px !important;
+}
+body .row .col {
+  overflow: hidden;
+}
+body .row .col .card .card-body {
+  background-color: #F4F2F1;
+}
+body .row .col .card .card-body a {
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+body .row .col .card .card-body a:hover {
+  color: #EF664B;
+}
+body .row .col .card .card-footer {
+  background-color: #F4F2F1 !important;
+  border: none !important;
+}
+body .row .col .card .card-footer .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body .row .col .card .card-footer .footer .qiymet {
+  display: flex;
+  flex-direction: column;
+}
+body .row .col .card .card-footer .footer .text {
+  display: flex;
+  flex-direction: column;
+}
+body .row .col .card .card-footer .footer .button4 {
+  width: 130px;
+  height: 50px;
+  background-color: #EF664B;
+  color: white;
+  border: none;
+}
+body .row .col .card .card-footer .footer .button4:hover {
+  background-color: white;
+  color: #EF664B;
+  border: 1px solid #EF664B;
+}
+body .howhelptoday {
+  margin-top: 30px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body .howhelptoday .tittle {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+body .howhelptoday .helping {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+body .howhelptoday .helping .part {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+body .row {
+  width: 100%;
+}
+body footer {
+  background-color: #263B5C;
+  color: white;
+}
+body footer .foot1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+body footer .foot1 .navigation {
+  display: flex;
+  flex-direction: column;
+}
+body footer .foot1 .navigation a {
+  text-decoration: none;
+  color: white;
+}
+body footer .foot1 .navigation a:hover {
+  text-decoration: underline;
+  transition: 1s;
+}
+body footer .foot1 .support button {
+  width: 130px;
+  height: 50px;
+  border: none;
+  background-color: #EF664B;
+  color: white;
+}
+body footer .foot1 .support button:hover {
+  border: 1px solid white;
+  background-color: transparent;
+  transition: 0.7s;
+}
+body footer .foot1 .foot1parts {
+  width: 18%;
+  margin-top: 40px;
+}
+body footer .foot1 .foot1parts .socialicons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+body footer .foot1 .foot1parts .socialicons div {
+  background-color: aqua;
+  z-index: 5;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .foot1 .foot1parts .socialicons div:hover {
+  transform: rotateY(0.5turn);
+  transition: 1s;
+}
+body footer .foot2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .home-demo {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}
+body .home-demo .owl-carousel .item {
+  background: #ff3f4d;
+}
+body .home-demo .owl-carousel h2 {
+  color: #FFF;
+  text-align: center;
+  padding: 5rem 0;
+  margin: 0;
+  font-style: italic;
+  font-weight: 300;
+}
+body .aboutus {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body .aboutus .text10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 30%;
+  gap: 20px;
+}
+body .aboutus .text10 span {
+  color: aquamarine;
+}
+body .aboutus .text10 h1 {
+  color: #263B5C;
+}
+body .aboutus .text10 p {
+  color: gray;
+}
+body .aboutus .text10 button {
+  width: 160px;
+  height: 55px;
+  color: white;
+  background-color: #EF664B;
+  border: none;
+}
+body .aboutus .text10 button:hover {
+  color: #EF664B;
+  border: 1px solid #EF664B;
+  transition: 0.8s;
+  background-color: white;
+}
+
+@media only screen and (max-width: 450px) {
+  .section1 {
+    height: 400px !important;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .lorem {
+    width: 98%;
+    gap: 5px;
+    margin-left: 5px !important;
+  }
+  .lorem p {
+    font-size: 15px !important;
+  }
+  .lorem h1 {
+    font-size: 30px !important;
+  }
+  .img {
+    width: 98% !important;
+    height: 50%;
+  }
+  .yazilar {
+    width: 100% !important;
+    justify-content: flex-start;
+  }
+  .yazi1 {
+    width: 98%;
+  }
+  .up {
+    font-size: 10px;
+  }
+  .donate {
+    font-size: 17px !important;
+  }
+  .when {
+    font-size: 15px;
+  }
+  .buttonlar {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    justify-content: flex-start;
+    margin-top: -30px;
+  }
+  .button2 {
+    height: 50px;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    height: 730px !important;
+  }
+  .about-img1 {
+    width: 100% !important;
+  }
+  .howhelptoday {
+    width: 100%;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .helping {
+    display: flex;
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+  .part {
+    width: 80% !important;
+    font-size: 10px;
+  }
+  .part h2 {
+    font-size: 15px;
+  }
+  .tittle {
+    font-size: 10px;
+  }
+  .tittle h1 {
+    font-size: 15px;
+  }
+  .foot1 {
+    display: flex;
+    flex-direction: column !important;
+    font-size: 10px;
+  }
+  .foot1parts {
+    width: 80% !important;
+    margin-left: 10px;
+  }
+  .foot1parts h3 {
+    font-size: 15px;
+  }
+  .aboutus {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    gap: 10px;
+  }
+  .aboutus div {
+    width: 100% !important;
+  }
+  .aboutsekil img {
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .section1 {
+    height: 450px !important;
+    width: 100%;
+    background-size: cover;
+  }
+  .lorem {
+    width: 95% !important;
+    gap: 10px;
+    margin-left: 20px !important;
+  }
+  .lorem p {
+    font-size: 20px !important;
+  }
+  .lorem h1 {
+    font-size: 30px !important;
+  }
+  .section2 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .img {
+    width: 90% !important;
+    height: 90% !important;
+    margin-top: 80px !important;
+    margin-left: 10px !important;
+  }
+  .yazilar {
+    width: 100% !important;
+    height: 49%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .up {
+    font-size: 13px;
+  }
+  .donate {
+    font-size: 20px;
+  }
+  .when {
+    font-size: 17px;
+  }
+  .howhelptoday {
+    width: 100%;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .helping {
+    display: flex;
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+  .part {
+    width: 70% !important;
+    font-size: 10px;
+  }
+  .part h2 {
+    font-size: 18px;
+  }
+  .tittle {
+    font-size: 13px;
+  }
+  .tittle h1 {
+    font-size: 15px;
+  }
+  .foot1 {
+    display: flex;
+    flex-direction: column !important;
+    width: 90% !important;
+  }
+  .foot1parts {
+    width: 80% !important;
+    margin-left: 10px;
+  }
+  .aboutus {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    gap: 10px;
+  }
+  .aboutus div {
+    width: 100% !important;
+  }
+  .aboutsekil img {
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 777px) {
+  .section1 {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .lorem {
+    width: 75%;
+    gap: 10px;
+    margin-left: 15px !important;
+  }
+  .lorem p {
+    font-size: 25px;
+    overflow: hidden;
+  }
+  .lorem h1 {
+    font-size: 37px;
+    overflow: hidden;
+  }
+  .section2 {
+    height: 990px !important;
+    width: 100%;
+    flex-direction: column;
+  }
+  .img {
+    width: 80% !important;
+    height: 50%;
+    margin-top: 200px;
+    margin-left: 25px !important;
+  }
+  .yazilar {
+    width: 80% !important;
+  }
+  .howhelptoday {
+    width: 100%;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .helping {
+    display: flex;
+    width: 100% !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+  }
+  .part {
+    width: 40% !important;
+    font-size: 13px;
+  }
+  .part h2 {
+    font-size: 18px;
+  }
+  .tittle {
+    font-size: 13px;
+  }
+  .tittle h1 {
+    font-size: 18px;
+  }
+  .foot1 {
+    display: grid !important;
+    grid-template-areas: "head head" "body1 body2" "foot foot";
+    gap: 10px;
+    width: 90% !important;
+    margin-left: 20px;
+  }
+  .loqofoot {
+    width: 70% !important;
+  }
+  .support {
+    width: 70% !important;
+  }
+  .aboutus {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    gap: 10px;
+  }
+  .aboutus div {
+    width: 100% !important;
+  }
+  .aboutsekil img {
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .section1 {
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+  }
+  .lorem {
+    width: 65%;
+  }
+  .lorem p {
+    font-size: 30px;
+  }
+  .lorem h1 {
+    font-size: 40px;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+  }
+  .img {
+    margin-top: 70px;
+    margin-left: -130px;
+    width: 60%;
+  }
+  .yazilar {
+    justify-content: flex-start;
+    width: 60% !important;
+  }
+  .button2 {
+    width: 110px !important;
+  }
+  .howhelptoday {
+    width: 100%;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .helping {
+    display: flex;
+    width: 100% !important;
+  }
+  .part {
+    width: 30%;
+    font-size: 13px;
+  }
+  .part h2 {
+    font-size: 18px;
+  }
+  .tittle {
+    font-size: 13px;
+  }
+  .tittle h1 {
+    font-size: 18px;
+  }
+  .aboutus {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    gap: 10px;
+  }
+  .aboutus div {
+    width: 100% !important;
+  }
+  .aboutsekil img {
+    width: 98%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .section1 {
+    width: 100%;
+    height: 800px;
+  }
+  .lorem {
+    width: 50%;
+    height: 100%;
+  }
+  .lorem h1 {
+    font-size: 45px;
+    overflow: hidden;
+  }
+  .lorem p {
+    font-size: 27px;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=style.css.map */
