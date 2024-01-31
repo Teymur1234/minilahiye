@@ -156,11 +156,6 @@ body .container .row .text1 .about .button3:hover {
   color: #EF664B;
   border: 1px solid #EF664B;
 }
-body .container .row .picture .aboutimg img {
-  width: 88%;
-  height: 75%;
-  margin-top: 60px;
-}
 body .row {
   margin-top: 100px !important;
 }
@@ -236,7 +231,63 @@ body .about-area1 .container .row .col-xxl-5 .about-caption .section-tittle butt
   background-color: #EF664B;
   transition: 1s;
 }
-
+body .howhelptoday {
+  margin-top: 30px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body .howhelptoday .tittle {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+body .howhelptoday .helping {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+body .howhelptoday .helping .part {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+body .row {
+  width: 100%;
+}
+body footer {
+  background-color: #263B5C;
+  color: white;
+}
+body footer .foot1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+body footer .foot1 .navigation {
+  display: flex;
+  flex-direction: column;
+}
+body footer .foot1 .foot1parts {
+  width: 18%;
+  margin-top: 40px;
+}
+body footer .foot1 .foot1parts .socialicons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 @media only screen and (max-width: 450px) {
   .section1 {
     height: 400px !important;
@@ -292,6 +343,33 @@ body .about-area1 .container .row .col-xxl-5 .about-caption .section-tittle butt
     width: 100%;
     height: 730px !important;
   }
+  .about-img1 {
+    width: 100% !important;
+  }
+  .howhelptoday {
+    width: 100%;
+    height: -webkit-max-content !important;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .helping {
+    display: flex;
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+  .part {
+    width: 80% !important;
+    font-size: 10px;
+  }
+  .part h2 {
+    font-size: 15px;
+  }
+  .tittle {
+    font-size: 10px;
+  }
+  .tittle h1 {
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .section1 {
@@ -337,6 +415,30 @@ body .about-area1 .container .row .col-xxl-5 .about-caption .section-tittle butt
   .when {
     font-size: 17px;
   }
+  .howhelptoday {
+    width: 100%;
+    height: -webkit-max-content !important;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .helping {
+    display: flex;
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+  .part {
+    width: 70% !important;
+    font-size: 10px;
+  }
+  .part h2 {
+    font-size: 18px;
+  }
+  .tittle {
+    font-size: 13px;
+  }
+  .tittle h1 {
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 777px) {
   .section1 {
@@ -372,6 +474,31 @@ body .about-area1 .container .row .col-xxl-5 .about-caption .section-tittle butt
   .yazilar {
     width: 80% !important;
   }
+  .howhelptoday {
+    width: 100%;
+    height: -webkit-max-content !important;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .helping {
+    display: flex;
+    width: 100% !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+  }
+  .part {
+    width: 40% !important;
+    font-size: 13px;
+  }
+  .part h2 {
+    font-size: 18px;
+  }
+  .tittle {
+    font-size: 13px;
+  }
+  .tittle h1 {
+    font-size: 18px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .section1 {
@@ -406,6 +533,29 @@ body .about-area1 .container .row .col-xxl-5 .about-caption .section-tittle butt
   }
   .button2 {
     width: 110px !important;
+  }
+  .howhelptoday {
+    width: 100%;
+    height: -webkit-max-content !important;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .helping {
+    display: flex;
+    width: 100% !important;
+  }
+  .part {
+    width: 30%;
+    font-size: 13px;
+  }
+  .part h2 {
+    font-size: 18px;
+  }
+  .tittle {
+    font-size: 13px;
+  }
+  .tittle h1 {
+    font-size: 18px;
   }
 }
 @media only screen and (min-width: 992px) {

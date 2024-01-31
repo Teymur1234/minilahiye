@@ -167,16 +167,7 @@ body{
     }
 }
 }
-}
-.picture{
-.aboutimg{
-    img{
-        width: 88%;
-        height: 75%;
-        margin-top: 60px;               
-    }
-}           
-}                                 
+}                             
  }
 }  
 .row{
@@ -266,6 +257,66 @@ body{
         }
      }
 }
+.howhelptoday{
+    margin-top: 30px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .tittle{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .helping{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .part{
+          width: 20%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+    }
+}
+.row{
+    width: 100%;
+}
+footer{
+    background-color: #263B5C;
+    color: white;
+    .foot1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        .navigation{
+            display: flex;
+            flex-direction: column;
+        }
+        .foot1parts{
+            width: 18%;
+            margin-top: 40px;
+            .socialicons{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                div{
+                    
+                }
+            }
+        }
+    }
+}
 }
 @media only screen and (max-width: 450px){
     .section1{
@@ -324,6 +375,31 @@ body{
         width: 100%;
         height: 730px!important;
     }
+    .about-img1{
+        width: 100%!important;
+    }
+    .howhelptoday{
+        width: 100%;
+        height: max-content!important;
+    }
+    .helping{
+        display: flex;
+        width: 100%!important;
+        flex-direction: column!important;
+    }
+    .part{
+        width: 80%!important;
+        font-size: 10px;
+    }
+    .part h2{
+        font-size: 15px;
+    }
+    .tittle{
+        font-size: 10px;
+    }
+    .tittle h1{
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width: 600px) {
     .section1{
@@ -369,6 +445,28 @@ body{
       .when{
         font-size: 17px;
       }
+      .howhelptoday{
+        width: 100%;
+        height: max-content!important;
+    }
+    .helping{
+        display: flex;
+        width: 100%!important;
+        flex-direction: column!important;
+    }
+    .part{
+        width: 70%!important;
+        font-size: 10px;
+    }
+    .part h2{
+        font-size: 18px;
+    }
+    .tittle{
+        font-size: 13px;
+    }
+    .tittle h1{
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width: 777px) {
     .section1 {
@@ -404,7 +502,30 @@ body{
     .yazilar{
         width: 80%!important;
     }
-}
+    .howhelptoday{
+        width: 100%;
+        height: max-content!important;
+    }
+    .helping{
+        display: flex;
+        width: 100%!important;
+        flex-wrap: wrap!important;
+        justify-content: space-between;
+    }
+    .part{
+        width: 40%!important;
+        font-size: 13px;
+    }
+    .part h2{
+        font-size: 18px;
+    }
+    .tittle{
+        font-size: 13px;
+    }
+    .tittle h1{
+        font-size: 18px;
+    }
+    }
 @media only screen and (max-width: 991px){
     .section1{
         width: 100%;
@@ -438,6 +559,27 @@ body{
        }
         .button2{
             width: 110px!important;
+        }
+        .howhelptoday{
+            width: 100%;
+            height: max-content!important;
+        }
+        .helping{
+            display: flex;
+            width: 100%!important;
+        }
+        .part{
+            width: 30%;
+            font-size: 13px;
+        }
+        .part h2{
+            font-size: 18px;
+        }
+        .tittle{
+            font-size: 13px;
+        }
+        .tittle h1{
+            font-size: 18px;
         }
 }
 @media only screen and (min-width: 992px){
