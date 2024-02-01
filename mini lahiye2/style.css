@@ -5,6 +5,7 @@
 
 body .navbar {
   background-color: #263B5C !important;
+  position: -webkit-sticky;
   position: sticky;
   top: 0px;
   z-index: 5;
@@ -239,6 +240,7 @@ body .row {
   width: 100%;
 }
 body footer {
+  z-index: 1 !important;
   background-color: #263B5C;
   color: white;
 }
@@ -281,6 +283,7 @@ body footer .foot1 .foot1parts .socialicons {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  z-index: -1 !important;
 }
 body footer .foot1 .foot1parts .socialicons div {
   background-color: aqua;
@@ -302,6 +305,7 @@ body footer .foot2 {
 }
 body .home-demo {
   width: 100%;
+  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
@@ -414,6 +418,7 @@ body .aboutus .text10 button:hover {
   }
   .howhelptoday {
     width: 100%;
+    height: -webkit-max-content !important;
     height: -moz-max-content !important;
     height: max-content !important;
   }
@@ -506,6 +511,7 @@ body .aboutus .text10 button:hover {
   }
   .howhelptoday {
     width: 100%;
+    height: -webkit-max-content !important;
     height: -moz-max-content !important;
     height: max-content !important;
   }
@@ -585,6 +591,7 @@ body .aboutus .text10 button:hover {
   }
   .howhelptoday {
     width: 100%;
+    height: -webkit-max-content !important;
     height: -moz-max-content !important;
     height: max-content !important;
   }
@@ -669,6 +676,7 @@ body .aboutus .text10 button:hover {
   }
   .howhelptoday {
     width: 100%;
+    height: -webkit-max-content !important;
     height: -moz-max-content !important;
     height: max-content !important;
   }

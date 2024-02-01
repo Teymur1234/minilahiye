@@ -115,7 +115,14 @@ body{
                 .button5{
                     width: 60px;
                     height: 40px;
+                    border: none;
                     background-color: aqua;
+                    color: white;
+                    &:hover{
+                        background-color: white;
+                        border: 1px solid aqua;
+                        color: aqua;
+                    }
                 }
             }
         }
